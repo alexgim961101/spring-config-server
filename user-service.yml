@@ -1,0 +1,13 @@
+spring: 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/msa?serverTimezone=Asia/Seoul
+    username: '{cipher}b37691bab3a2ff74aa1c8618fe6960694995d890298eebad01174ebd72d4007a'
+    password: '{cipher}1699ca8a94a4595a48fe6a8c02301fd827a717e7de219e9ada7fc8a13acd8f01'
+
+token:
+  expiration_time: 864000000
+  secret: user_token_default
+
+gateway:
+  ip: localhost:8000
